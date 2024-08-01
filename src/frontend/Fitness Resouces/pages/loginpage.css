@@ -1,0 +1,192 @@
+.fitness-app-container .fitness-app {
+  margin-right: 20.5px;
+  width: 364px;
+  overflow-wrap: break-word;
+  font-family: 'Epilogue';
+  font-weight: 800;
+  font-size: 40px;
+  color: #1C3796;
+}
+.fitness-app-container .home, .fitness-app-container .login  {
+  margin: 7px 0 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Epilogue';
+  font-weight: 500;
+  font-size: 32px;
+  color: #9E82D8;
+}
+
+.fitness-app-container .container-2 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0 19px 35px;
+  width: 1307px;
+  box-sizing: border-box;
+}
+.fitness-app-container .rectangle-2 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: 50%;
+  top: 75px;
+  translate: -50% 0;
+  width: 508px;
+  height: 502px;
+}
+.fitness-app-container .vector {
+  width: 43px;
+  height: 34.4px;
+}
+.fitness-app-container .iconenvelope-alt {
+  margin: 1px 32.7px 4.6px 0;
+  display: flex;
+  width: 43px;
+  height: 34.4px;
+  box-sizing: border-box;
+}
+.fitness-app-container .username {
+  overflow-wrap: break-word;
+  font-family: 'Jua';
+  font-weight: 400;
+  font-size: 32px;
+  width: 80%;
+  color: #A0A0A0;
+}
+.fitness-app-container .container-1 {
+  position: relative;
+  margin: 0 209.7px 9px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.fitness-app-container .line-1 {
+  background: rgba(148, 148, 148, 0.5);
+  position: relative;
+  margin: 0 0.9px 77.9px 0;
+  width: 422px;
+  height: 0px;
+}
+.fitness-app-container .vector-1 {
+  width: 39.5px;
+  height: 49.4px;
+}
+.fitness-app-container .iconpadlock {
+  margin: 0 32.1px 2.7px 0;
+  display: flex;
+  width: 39.5px;
+  height: 49.4px;
+  box-sizing: border-box;
+}
+.fitness-app-container .password {
+  margin-top: 12.1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Jua';
+  font-weight: 400;
+  font-size: 32px;
+  color: #A0A0A0;
+}
+.fitness-app-container .container-3 {
+  position: relative;
+  margin: 0 211.1px 11px 0;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.fitness-app-container .line-2 {
+  background: rgba(148, 148, 148, 0.5);
+  position: relative;
+  margin: 0 0.9px 12px 0;
+  width: 422px;
+  height: 0px;
+}
+.fitness-app-container .forget-password {
+  margin-right: 12.5px;
+  width: 164px;
+  overflow-wrap: break-word;
+  font-family: 'Jua';
+  font-weight: 400;
+  font-size: 20px;
+  color: #E49494;
+}
+.fitness-app-container .new-user {
+  overflow-wrap: break-word;
+  font-family: 'Jua';
+  font-weight: 400;
+  font-size: 20px;
+  color: #9593EE;
+}
+.fitness-app-container .container-4 {
+  position: relative;
+  margin-bottom: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 422.9px;
+  box-sizing: border-box;
+}
+.fitness-app-container .login-1 {
+  overflow-wrap: break-word;
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 30px;
+  color: #427798;
+}
+.fitness-app-container .container {
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  background: #D5ECFC;
+  position: relative;
+  margin-right: 18.9px;
+  display: flex;
+  padding: 20px 0 45px 0;
+  width: 362px;
+  box-sizing: border-box;
+}
+.fitness-app-container .container-5 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 27px;
+  border: 5px solid rgba(255, 255, 255, 0.35);
+  background: #C2BAF3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 135px 0 121px 0;
+  width: 678px;
+  box-sizing: border-box;
+}
+.fitness-app-container {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 52px;
+  width: 1280px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+}
+
+.nav-link {
+  cursor: pointer;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
