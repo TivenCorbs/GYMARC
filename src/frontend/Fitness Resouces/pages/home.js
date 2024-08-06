@@ -12,3 +12,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 const username = localStorage.getItem('username');
 const welcomeMessage = document.querySelector('.best-gym-app-for-betterment');
+if(username){
+    welcomeMessage.textContent = `Welcome back, ${username}!`;
+};

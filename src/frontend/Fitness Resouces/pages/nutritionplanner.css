@@ -1,4 +1,4 @@
-.mac-book-air-4 .ellipse-2 {
+.fitness-app-container .ellipse-2 {
   backdrop-filter: blur(2px);
   position: absolute;
   top: -296px;
@@ -6,7 +6,7 @@
   width: 1348px;
   height: 591px;
 }
-.mac-book-air-4 .fitness-app {
+.fitness-app-container .fitness-app {
   margin-right: 20.5px;
   width: 364px;
   overflow-wrap: break-word;
@@ -15,7 +15,7 @@
   font-size: 40px;
   color: #1C3796;
 }
-.mac-book-air-4 .home {
+.fitness-app-container .home {
   margin: 7px 0 1px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -24,7 +24,7 @@
   font-size: 32px;
   color: #9E82D8;
 }
-.mac-book-air-4 .about {
+.fitness-app-container .about {
   margin: 7px 0 1px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -33,7 +33,7 @@
   font-size: 32px;
   color: #9E82D8;
 }
-.mac-book-air-4 .pricing {
+.fitness-app-container .pricing {
   margin: 7px 0 1px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -42,7 +42,7 @@
   font-size: 32px;
   color: #9E82D8;
 }
-.mac-book-air-4 .login {
+.fitness-app-container .login {
   margin: 7px 0 1px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -51,7 +51,7 @@
   font-size: 32px;
   color: #9E82D8;
 }
-.mac-book-air-4 .container-1 {
+.fitness-app-container .container-1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
   background: #FFFFFF;
   position: relative;
@@ -62,14 +62,14 @@
   width: 1307px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .image-4 {
+.fitness-app-container .image-4 {
   background: url('../assets/images/image_4.png') 50% / cover no-repeat;
   position: relative;
   margin: 0 1px 22px 0;
   width: 299px;
   height: 299px;
 }
-.mac-book-air-4 .nutrition-plan {
+.fitness-app-container .nutrition-plan {
   position: relative;
   margin: 0 0 23px 16px;
   display: inline-block;
@@ -79,14 +79,14 @@
   font-size: 64px;
   color: #0F644F;
 }
-.mac-book-air-4 .line-5 {
+.fitness-app-container .line-5 {
   background: rgba(206, 206, 206, 0.8);
   position: relative;
   margin-bottom: 4px;
   width: 1478px;
   height: 0px;
 }
-.mac-book-air-4 .monday {
+.fitness-app-container .monday {
   position: relative;
   margin: 0 14.3px 17px 0;
   display: inline-block;
@@ -96,11 +96,11 @@
   font-size: 40px;
   color: #4D6D77;
 }
-.mac-book-air-4 .vector-2 {
+.fitness-app-container .vector-2 {
   width: 55px;
   height: 55px;
 }
-.mac-book-air-4 .container-8 {
+.fitness-app-container .container-8 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
   border-radius: 27px;
@@ -114,7 +114,7 @@
   height: 82px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .breakfast {
+.fitness-app-container .breakfast {
   margin-bottom: 2px;
   display: inline-block;
   align-self: flex-start;
@@ -124,31 +124,31 @@
   font-size: 24px;
   color: #0F644F;
 }
-.mac-book-air-4 .overnight-oats {
+.fitness-app-container .overnight-oats {
   overflow-wrap: break-word;
   font-family: 'Jua';
   font-weight: 400;
   font-size: 24px;
   color: #4D6D77;
 }
-.mac-book-air-4 .container-10 {
+.fitness-app-container .container-10 {
   margin: 14px 81.6px 13.7px 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-.mac-book-air-4 .vector-1 {
+.fitness-app-container .vector-1 {
   width: 18.1px;
   height: 10.7px;
 }
-.mac-book-air-4 .iconangle-down {
+.fitness-app-container .iconangle-down {
   margin-top: 74px;
   display: flex;
   width: 18.1px;
   height: 10.7px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container-7 {
+.fitness-app-container .container-7 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   background: #F5F5F5;
@@ -159,11 +159,11 @@
   padding: 19px 16px 10.3px 12px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .vector-5 {
+.fitness-app-container .vector-5 {
   width: 50px;
   height: 51px;
 }
-.mac-book-air-4 .container-6 {
+.fitness-app-container .container-6 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
   border-radius: 27px;
@@ -177,7 +177,7 @@
   height: 82px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .lunch {
+.fitness-app-container .lunch {
   margin-bottom: 2px;
   display: inline-block;
   align-self: flex-start;
@@ -187,31 +187,31 @@
   font-size: 24px;
   color: #0F644F;
 }
-.mac-book-air-4 .black-bean-burrito {
+.fitness-app-container .black-bean-burrito {
   overflow-wrap: break-word;
   font-family: 'Jua';
   font-weight: 400;
   font-size: 24px;
   color: #4D6D77;
 }
-.mac-book-air-4 .container-9 {
+.fitness-app-container .container-9 {
   margin: 14px 42.9px 13.7px 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-.mac-book-air-4 .vector-3 {
+.fitness-app-container .vector-3 {
   width: 18.1px;
   height: 10.7px;
 }
-.mac-book-air-4 .iconangle-down-1 {
+.fitness-app-container .iconangle-down-1 {
   margin-top: 74px;
   display: flex;
   width: 18.1px;
   height: 10.7px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container-4 {
+.fitness-app-container .container-4 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   background: #F5F5F5;
@@ -222,17 +222,17 @@
   padding: 19px 16px 10.3px 12px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .vector {
+.fitness-app-container .vector {
   width: 50px;
   height: 45px;
 }
-.mac-book-air-4 .mdipasta {
+.fitness-app-container .mdipasta {
   display: flex;
   width: 60px;
   height: 60px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container-3 {
+.fitness-app-container .container-3 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
   border-radius: 27px;
@@ -246,7 +246,7 @@
   height: 82px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .dinner {
+.fitness-app-container .dinner {
   margin-bottom: 2px;
   display: inline-block;
   align-self: flex-start;
@@ -256,37 +256,37 @@
   font-size: 24px;
   color: #0F644F;
 }
-.mac-book-air-4 .alfredo-pasta {
+.fitness-app-container .alfredo-pasta {
   overflow-wrap: break-word;
   font-family: 'Jua';
   font-weight: 400;
   font-size: 24px;
   color: #4D6D77;
 }
-.mac-book-air-4 .container-11 {
+.fitness-app-container .container-11 {
   margin: 14px 0 11px 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container-2 {
+.fitness-app-container .container-2 {
   margin-bottom: 4.7px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.mac-book-air-4 .vector-4 {
+.fitness-app-container .vector-4 {
   width: 18.1px;
   height: 10.7px;
 }
-.mac-book-air-4 .iconangle-down-2 {
+.fitness-app-container .iconangle-down-2 {
   margin-top: 76px;
   display: flex;
   width: 18.1px;
   height: 10.7px;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container {
+.fitness-app-container .container {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   background: #F5F5F5;
@@ -300,7 +300,7 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.mac-book-air-4 .container-5 {
+.fitness-app-container .container-5 {
   position: relative;
   margin: 0 37px 0 35px;
   display: flex;
@@ -308,7 +308,7 @@
   width: fit-content;
   box-sizing: border-box;
 }
-.mac-book-air-4 {
+.fitness-app-container {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
