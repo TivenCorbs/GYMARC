@@ -1,12 +1,12 @@
 const express = require('express');
-const PouchDB = require('pouchdb');
 const path = require('path');
 const bodyParse = require('body-parser');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-const db = new PouchDB('database');
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Middleware
@@ -38,7 +38,7 @@ app.get('/api/data',async(req,res) =>{
         res.status(500).json({error: err.message});
     }
 });
-
+//updates
 app.put('/api/data/:id', async (req,res) =>{
     try{
         const doc = await db.get(req,params.id);
@@ -48,7 +48,7 @@ app.put('/api/data/:id', async (req,res) =>{
         res.status(500).json({error:err.message})
     }
 } );
-
+//Deletes
 app.delete('/api/data/:id', async (req,res) =>{
     try{
         const doc = await db.get(req,params.id);
@@ -60,6 +60,12 @@ app.delete('/api/data/:id', async (req,res) =>{
     }
 });
 
+app.use((err,req,res,next) =>{
+    console.error(err.stack);
+    res.status(500).end("Something not working!")
+});
+
+//Start Server
 app.listen(port, () =>{
     console.log(`Server is runnning on port ${port}`);
 });
