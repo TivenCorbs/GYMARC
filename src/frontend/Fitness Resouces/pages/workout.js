@@ -7,4 +7,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+async function fetchWorkoutDetails(workoutType){
+    try{
+        const response = await fetch(`/api/workout-plan?workout=${workoutType}`);
+        const data = await response.json();
+        console.log(data);
+        alert(`Details for ${workoutType}:\nDuration: ${data.duration}\nIntensity: ${data.intensity}\nDescription: ${data.description}`);
+    }
+    catch(error){
+        console.error('Error fetching workout details:',error);
+    }
+}
         
