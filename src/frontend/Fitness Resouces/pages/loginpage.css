@@ -86,20 +86,21 @@
   box-sizing: border-box;
 }
 .fitness-app-container .password {
-  margin-top: 12.1px;
-  display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Jua';
   font-weight: 400;
   font-size: 32px;
+  width:100%;
   color: #A0A0A0;
 }
 .fitness-app-container .container-3 {
   position: relative;
-  margin: 0 211.1px 11px 0;
+  margin:  0 auto 11px 0;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   width: fit-content;
+  max-width:422px;
   box-sizing: border-box;
 }
 .fitness-app-container .line-2 {

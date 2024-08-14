@@ -5,7 +5,7 @@ document.getElementById('forgotPasswordForm').addEventListener('submit', functio
     const message = document.getElementById('message');
 
     if(validateEmail(email)){
-        message.textContent = `A reset link has been sent do ${email}`;
+        message.textContent = `A reset link has been sent to ${email}`;
 
     } else{
         message.textContent = "Please enter your valid email address.";
