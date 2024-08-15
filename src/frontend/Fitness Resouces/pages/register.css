@@ -65,7 +65,7 @@ h1{
 }
 
 .register-form button:hover{
-    background:#01946a;
+    background: purple;
 }
 
 .error-message{
