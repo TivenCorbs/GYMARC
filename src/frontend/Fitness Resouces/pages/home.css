@@ -1,140 +1,32 @@
-.fitness-app-container .image-2 {
-  background: url('../assets/images/image_2.png') 50% / cover no-repeat;
-  margin: 1267px 194px 0 0;
-  width: 428px;
-  height: 428px;
-}
-.fitness-app-container .image-5 {
-  background: url('../assets/images/image_5.png') 50% / cover no-repeat;
-  margin-bottom: 1402px;
-  width: 293px;
-  height: 293px;
-  top: 50px;  /* Adjust this value to move it down */
-  right: 50px;
-}
-.fitness-app-container .container-1 {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 915px;
-  height: fit-content;
-  box-sizing: border-box;
-}
-.fitness-app-container .ellipse-1 {
-  backdrop-filter: blur(2px);
-  position: absolute;
-  left: 50px;
-  top: 300px;
-  width: 783px;
-  height: 788px;
-}
-.fitness-app-container .fitness-app {
-  margin-right: 20.5px;
-  width: 364px;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 800;
-  font-size: 40px;
-  color: #1C3796;
-}
-.fitness-app-container .home, 
-.fitness-app-container .about, 
-.fitness-app-container .login {
-  margin: 7px 0 1px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 500;
-  font-size: 32px;
-  color: #9E82D8;
+/* Global Styles */
+body {
+  font-family: 'Epilogue', sans-serif;
+  background: linear-gradient(135deg, #1d1f21, #3b3e42);
+  color: #f4f4f4;
+  margin: 0;
 }
 
- 
-.fitness-app-container .container {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
-  background: #FFFFFF;
-  position: absolute;
-  top: -59px;
-  right: -21px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 87px 0 19px 35px;
-  width: 1307px;
-  height: 147px;
-  box-sizing: border-box;
-}
-
-.view {
-  display: none;
-  padding: 4rem;
-  text-align: center;
-  font-size: 1.5 rem;
-  background-color: #fff;
-  margin: 2rem auto;
-  width:80%;
-  max-width:800px;
-  border-width: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
-}
-
-.fitness-app-container .best-gym-app-for-betterment {
-  position: absolute;
-  left: 197.9px;
-  top: 500px;
-  
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 800;
-  font-size: 64px;
-  color: #4A1C96;
-}
-.fitness-app-container .register-today {
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: bold;
-  font-size: 50px;
-  color: #427798;
-  
-}
-
-.navbar .register-today{
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.nav-link .register-today{
-  cursor: pointer;
-  margin: 0 1rem;
-  padding: 0.5rem 1rem;
-  font-size: 1.2rem;
-  transition: background-color 0.3s;
-}
-.fitness-app-container .container-2 {
-  border-radius: 10px;
-  border: 1px solid #BDBDBD;
-  background: #D5ECFC;
-  position: absolute;
-  left: 196px;
-  bottom: 28px;
-  display: flex;
-  padding: 45px 0 42px 20px;
-  width: 484px;
-  box-sizing: border-box;
-}
+/* Fitness App Container */
 .fitness-app-container {
-  background: #FFFFFF;
+  background: #1d1f21;
   display: flex;
-  width: 1280px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
   box-sizing: border-box;
+  padding: 20px;
 }
+
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  color: white;
+  width: 100%;
+  background: #282c34;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
 }
 
 .nav-link {
@@ -142,5 +34,118 @@
   margin: 0 1rem;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
+  color: #9E82D8;
   transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #427798;
+}
+
+/* Header Text */
+.fitness-app-container .best-gym-app-for-betterment {
+  text-align: center;
+  font-weight: 800;
+  font-size: 64px;
+  color: #f4f4f4;
+  margin: 50px 0;
+}
+
+/* Image Containers */
+.fitness-app-container .image-2,
+.fitness-app-container .image-5 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/* Specific Image Styles */
+.fitness-app-container .image-2 {
+  background-image: url('../assets/images/image_2.png');
+  width: 428px;
+  height: 428px;
+  margin: 20px;
+}
+
+.fitness-app-container .image-5 {
+  background-image: url('../assets/images/image_5.png');
+  width: 293px;
+  height: 293px;
+  margin: 20px;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+/* Blurred Background Ellipse */
+.fitness-app-container .ellipse-1 {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  width: 783px;
+  height: 788px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+/* Fitness App Header */
+.fitness-app-container .fitness-app {
+  font-weight: 800;
+  font-size: 40px;
+  color: #00b894;
+  margin-bottom: 20px;
+}
+
+/* Register Today Button */
+.fitness-app-container .register-today {
+  font-weight: bold;
+  font-size: 50px;
+  color: #00b894;
+  cursor: pointer;
+  padding: 20px 40px;
+  background: #282c34;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.fitness-app-container .register-today:hover {
+  background: #01946a;
+}
+
+/* Container 1 - Main Layout */
+.fitness-app-container .container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 50px 0;
+  box-sizing: border-box;
+}
+
+/* Container 2 - Additional Info */
+.fitness-app-container .container-2 {
+  background: #2e2f31;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 45px 20px;
+  color: #f4f4f4;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* View Section */
+.view {
+  display: none;
+  padding: 4rem;
+  background-color: #282c34;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  text-align: center;
 }
