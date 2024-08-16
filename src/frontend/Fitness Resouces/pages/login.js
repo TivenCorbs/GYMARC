@@ -18,16 +18,22 @@ document.querySelector('.register-today').addEventListener('click', async () => 
   });
   
 
-document.getElementById('loginForm').addEventListener('submit',function(event){
-    event.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-});
+  function auth(){
+    var email = document.getElementById("username").value;
+    var pass = document.getElementById("password").value;
+    
+    //Retrieve stored credential from localStorage
+    var storedEmail = localStorage.getItem("userEmail");
+    var storedPassword = localStorage.getItem("userPassword");
 
-if(username && password){
-    localStorage.setItem('username',username);
-    window.location.href = 'tracker.html';
-}
-else{
-    document.getElementById('error-message').textContent = 'Please enter both username and password. ';
-}
+    //Basic authentication check
+    if(email === storedEmail && pass ===storedPassword){
+      alert("Login sucessful!");
+      window.location.href = "dashboard.html";
+      return false;
+
+    }else{
+      alert("Invalid email or password. Please try again.")
+      return false;
+    }
+  }

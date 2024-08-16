@@ -25,14 +25,14 @@
             <div class="iconenvelope-alt">
               <img class="vector" src="../assets/vectors/vector_12_x2.svg" />
             </div>
-            <input class="username" placeholder="Username">
+            <input id="username" class="username" placeholder="Username">
           </div>
           <div class="line-1"></div>
           <div class="container-3">
             <div class="iconpadlock">
               <img class="vector-1" src="../assets/vectors/vector_31_x2.svg" />
             </div>
-            <input class="password" placeholder="Password">
+            <input id="password" class="password" type="password" placeholder="Password">
           </div>
           <div class="line-2"></div>
           <div class="container-4">
@@ -45,11 +45,11 @@
           </div>
           <div class="container">
             <span class="login-1">
-              <button class="nav-button">Login</button>
+              <button class="nav-button" onclick="auth()">Login</button>
             </span>
           </div>
+          <div class="error-message" id="error-message"></div>
         </div>
       </div>
     </div>
-  </body>
-</html>
+    
