@@ -71,9 +71,22 @@ body {
   margin-top: 150px; /* Adjust for navbar height and padding */
 }
 
+/* Icons and Labels */
+.fitness-app-container .iconenvelope-alt, .fitness-app-container .iconpadlock {
+  display: inline-block;
+  width: 30px;  /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.fitness-app-container .vector, .fitness-app-container .vector-1 {
+  width: 100%;
+  height: 100%;
+}
+
 /* Input fields */
-.fitness-app-container .username,
-.fitness-app-container .password {
+.fitness-app-container .username, .fitness-app-container .password {
   font-family: 'Jua', sans-serif;
   font-weight: 400;
   font-size: 24px; /* Adjust the size as needed */
@@ -84,7 +97,36 @@ body {
   border: none;
   border-bottom: 2px solid #9E82D8;
   background: none;
-  outline: none;
+}
+
+/* Container 5 - Info Box */
+.fitness-app-container .container-5 {
+  background: rgba(32, 34, 36, 0.9);
+  padding: 50px 20px;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Forget Password and New User Alignment */
+.fitness-app-container .container-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.forget-password, .new-user {
+  font-size: 14px;
+  color: #9E82D8;
+}
+
+.forget-password a, .new-user a {
+  color: #9E82D8;
+  text-decoration: none;
+}
+
+.forget-password a:hover, .new-user a:hover {
+  text-decoration: underline;
 }
 
 /* Submit Button Styling */
@@ -103,28 +145,4 @@ body {
 .nav-button:hover {
   background-color: #755BAF;
   transform: scale(1.05);
-}
-
-/* Error message styling */
-.error-message {
-  color: #FF4C4C;
-  margin-top: 20px;
-  font-size: 16px;
-  text-align: center;
-}
-
-/* Additional small text links */
-.fitness-app-container .small-text {
-  font-size: 14px;
-  color: #9E82D8;
-  margin-top: 15px;
-}
-
-.fitness-app-container .small-text a {
-  color: #9E82D8;
-  text-decoration: none;
-}
-
-.fitness-app-container .small-text a:hover {
-  text-decoration: underline;
 }

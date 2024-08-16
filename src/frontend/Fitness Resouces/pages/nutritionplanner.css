@@ -1,3 +1,13 @@
+.fitness-app-container {
+  background: #121212; /* Dark background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 36px;
+  width: 1280px;
+  box-sizing: border-box;
+}
+
 .fitness-app-container .ellipse-2 {
   backdrop-filter: blur(2px);
   position: absolute;
@@ -6,6 +16,7 @@
   width: 1348px;
   height: 591px;
 }
+
 .fitness-app-container .fitness-app {
   margin-right: 20.5px;
   width: 364px;
@@ -13,35 +24,12 @@
   font-family: 'Epilogue';
   font-weight: 800;
   font-size: 40px;
-  color: #1C3796;
+  color: #BB86FC; /* Light color for text */
 }
-.fitness-app-container .home {
-  margin: 7px 0 1px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 500;
-  font-size: 32px;
-  color: #9E82D8;
-}
-.fitness-app-container .about {
-  margin: 7px 0 1px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 500;
-  font-size: 32px;
-  color: #9E82D8;
-}
-.fitness-app-container .pricing {
-  margin: 7px 0 1px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 500;
-  font-size: 32px;
-  color: #9E82D8;
-}
+
+.fitness-app-container .home,
+.fitness-app-container .about,
+.fitness-app-container .pricing,
 .fitness-app-container .login {
   margin: 7px 0 1px 0;
   display: inline-block;
@@ -49,11 +37,12 @@
   font-family: 'Epilogue';
   font-weight: 500;
   font-size: 32px;
-  color: #9E82D8;
+  color: #CF6679; /* Lighter color for navigation links */
 }
+
 .fitness-app-container .container-1 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
-  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4); /* Darker shadow */
+  background: #1E1E1E; /* Darker background for containers */
   position: relative;
   display: flex;
   flex-direction: row;
@@ -62,6 +51,7 @@
   width: 1307px;
   box-sizing: border-box;
 }
+
 .fitness-app-container .image-4 {
   background: url('../assets/images/image_4.png') 50% / cover no-repeat;
   position: relative;
@@ -69,6 +59,7 @@
   width: 299px;
   height: 299px;
 }
+
 .fitness-app-container .nutrition-plan {
   position: relative;
   margin: 0 0 23px 16px;
@@ -77,15 +68,17 @@
   font-family: 'Epilogue';
   font-weight: 800;
   font-size: 64px;
-  color: #0F644F;
+  color: #BB86FC; /* Light color for titles */
 }
+
 .fitness-app-container .line-5 {
-  background: rgba(206, 206, 206, 0.8);
+  background: rgba(100, 100, 100, 0.8); /* Darker line */
   position: relative;
   margin-bottom: 4px;
   width: 1478px;
   height: 0px;
 }
+
 .fitness-app-container .monday {
   position: relative;
   margin: 0 14.3px 17px 0;
@@ -94,18 +87,20 @@
   font-family: 'Jua';
   font-weight: 400;
   font-size: 40px;
-  color: #4D6D77;
+  color: #BB86FC; /* Lighter text color */
 }
+
 .fitness-app-container .vector-2 {
   width: 55px;
   height: 55px;
 }
+
 .fitness-app-container .container-8 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(2px);
   border-radius: 27px;
-  border: 5px solid rgba(255, 255, 255, 0.35);
-  background: rgba(186, 243, 202, 0.8);
+  border: 5px solid rgba(255, 255, 255, 0.15);
+  background: rgba(50, 50, 50, 0.8); /* Darker background with slight transparency */
   position: relative;
   margin: 0 19px 2.7px 0;
   display: flex;
@@ -114,138 +109,9 @@
   height: 82px;
   box-sizing: border-box;
 }
-.fitness-app-container .breakfast {
-  margin-bottom: 2px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 800;
-  font-size: 24px;
-  color: #0F644F;
-}
-.fitness-app-container .overnight-oats {
-  overflow-wrap: break-word;
-  font-family: 'Jua';
-  font-weight: 400;
-  font-size: 24px;
-  color: #4D6D77;
-}
-.fitness-app-container .container-10 {
-  margin: 14px 81.6px 13.7px 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.fitness-app-container .vector-1 {
-  width: 18.1px;
-  height: 10.7px;
-}
-.fitness-app-container .iconangle-down {
-  margin-top: 74px;
-  display: flex;
-  width: 18.1px;
-  height: 10.7px;
-  box-sizing: border-box;
-}
-.fitness-app-container .container-7 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  background: #F5F5F5;
-  position: relative;
-  margin: 2px 26px 0 0;
-  display: flex;
-  flex-direction: row;
-  padding: 19px 16px 10.3px 12px;
-  box-sizing: border-box;
-}
-.fitness-app-container .vector-5 {
-  width: 50px;
-  height: 51px;
-}
-.fitness-app-container .container-6 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(2px);
-  border-radius: 27px;
-  border: 5px solid rgba(255, 255, 255, 0.35);
-  background: rgba(186, 243, 202, 0.8);
-  position: relative;
-  margin: 0 19px 2.7px 0;
-  display: flex;
-  padding: 15px 17px 16px 18px;
-  width: 85px;
-  height: 82px;
-  box-sizing: border-box;
-}
-.fitness-app-container .lunch {
-  margin-bottom: 2px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Epilogue';
-  font-weight: 800;
-  font-size: 24px;
-  color: #0F644F;
-}
-.fitness-app-container .black-bean-burrito {
-  overflow-wrap: break-word;
-  font-family: 'Jua';
-  font-weight: 400;
-  font-size: 24px;
-  color: #4D6D77;
-}
-.fitness-app-container .container-9 {
-  margin: 14px 42.9px 13.7px 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.fitness-app-container .vector-3 {
-  width: 18.1px;
-  height: 10.7px;
-}
-.fitness-app-container .iconangle-down-1 {
-  margin-top: 74px;
-  display: flex;
-  width: 18.1px;
-  height: 10.7px;
-  box-sizing: border-box;
-}
-.fitness-app-container .container-4 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  background: #F5F5F5;
-  position: relative;
-  margin: 2px 18px 0 0;
-  display: flex;
-  flex-direction: row;
-  padding: 19px 16px 10.3px 12px;
-  box-sizing: border-box;
-}
-.fitness-app-container .vector {
-  width: 50px;
-  height: 45px;
-}
-.fitness-app-container .mdipasta {
-  display: flex;
-  width: 60px;
-  height: 60px;
-  box-sizing: border-box;
-}
-.fitness-app-container .container-3 {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(2px);
-  border-radius: 27px;
-  border: 5px solid rgba(255, 255, 255, 0.35);
-  background: rgba(186, 243, 202, 0.8);
-  position: relative;
-  margin-right: 19px;
-  display: flex;
-  padding: 18.5px 17px 18.5px 18px;
-  width: 85px;
-  height: 82px;
-  box-sizing: border-box;
-}
+
+.fitness-app-container .breakfast,
+.fitness-app-container .lunch,
 .fitness-app-container .dinner {
   margin-bottom: 2px;
   display: inline-block;
@@ -254,42 +120,57 @@
   font-family: 'Epilogue';
   font-weight: 800;
   font-size: 24px;
-  color: #0F644F;
+  color: #BB86FC; /* Light text color */
 }
+
+.fitness-app-container .overnight-oats,
+.fitness-app-container .black-bean-burrito,
 .fitness-app-container .alfredo-pasta {
   overflow-wrap: break-word;
   font-family: 'Jua';
   font-weight: 400;
   font-size: 24px;
-  color: #4D6D77;
+  color: #CF6679; /* Lighter text color */
 }
-.fitness-app-container .container-11 {
-  margin: 14px 0 11px 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.fitness-app-container .container-2 {
-  margin-bottom: 4.7px;
+
+.fitness-app-container .container-7 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  background: #333333; /* Darker background for smaller containers */
+  position: relative;
+  margin: 2px 26px 0 0;
   display: flex;
   flex-direction: row;
+  padding: 19px 16px 10.3px 12px;
   box-sizing: border-box;
 }
-.fitness-app-container .vector-4 {
-  width: 18.1px;
-  height: 10.7px;
+
+.fitness-app-container .vector-5 {
+  width: 50px;
+  height: 51px;
 }
-.fitness-app-container .iconangle-down-2 {
-  margin-top: 76px;
+
+.fitness-app-container .container-6,
+.fitness-app-container .container-3 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  border-radius: 27px;
+  border: 5px solid rgba(255, 255, 255, 0.15);
+  background: rgba(50, 50, 50, 0.8); /* Darker background with slight transparency */
+  position: relative;
+  margin-right: 19px;
   display: flex;
-  width: 18.1px;
-  height: 10.7px;
+  padding: 18.5px 17px 18.5px 18px;
+  width: 85px;
+  height: 82px;
   box-sizing: border-box;
 }
+
+.fitness-app-container .container-4,
 .fitness-app-container .container {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  background: #F5F5F5;
+  background: #333333; /* Darker background for smaller containers */
   position: relative;
   margin-bottom: 2px;
   display: flex;
@@ -300,20 +181,5 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.fitness-app-container .container-5 {
-  position: relative;
-  margin: 0 37px 0 35px;
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.fitness-app-container {
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 36px;
-  width: 1280px;
-  box-sizing: border-box;
-}
+
+/* Update other elements similarly for a dark theme */

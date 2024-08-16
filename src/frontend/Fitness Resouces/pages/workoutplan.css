@@ -362,3 +362,73 @@
   box-sizing: border-box;
 }
 
+/* Header and Navbar */
+/* Header and Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensures the header stays on top */
+}
+
+.branding .fitness-app {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #1C3796;
+  margin-right: 50px; /* Adds space between branding and links */
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px; /* Space between the links */
+}
+
+.navbar .nav-link {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #9E82D8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #1C3796;
+}
+
+/* Make space for the fixed header */
+body {
+  padding-top: 100px; /* Adjust this value based on your header height */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .nav-link {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .branding .fitness-app {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+}
+
