@@ -42,8 +42,18 @@ document.getElementById('registerForm').addEventListener('submit',function(event
     }
 
     if(isValid){
-        alert('Registration sucessful!');
+        alert('Registration successful!');
+        console.log({
+            name:name.value,
+            email: email.value,
+            phone: phone.value,
+            password: password.value,
+        });
     }
+    name.value = '';
+    email.value = '';
+    phone.value = '';
+    password.value ='';
 }); 
 
     function clearErrors(){
@@ -63,3 +73,4 @@ document.getElementById('registerForm').addEventListener('submit',function(event
         const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
         return phoneRegex.test(phone);
     }
+    
